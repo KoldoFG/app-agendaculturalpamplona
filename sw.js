@@ -1,7 +1,7 @@
 /* Agenda cultural · service worker
    Funciona sin conexión con lo último descargado.
    Sube el número de CACHE al publicar cambios en los ficheros estáticos. */
-const CACHE = "agenda-v1";
+const CACHE = "agenda-v3";
 const CLAVE_DATOS = "datos-agenda";
 const SHELL = [
   "./", "./index.html", "./manifest.webmanifest", "./eventos.json",
